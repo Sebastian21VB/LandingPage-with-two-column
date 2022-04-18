@@ -1,0 +1,130 @@
+
+:root{
+
+    /*fonts*/
+
+    --raleway: 'Raleway', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+
+    /*colors*/
+
+    --very-dark-blue: hsl(243, 87%, 12%);
+    --desaturated-blue: hsl(238, 22%, 44%);
+    --bright-blue: hsl(224, 93%, 58%);
+    --moderate-cyan: hsl(170, 45%, 43%);
+    --light-grayish-blue: hsl(240, 75%, 98%);
+    --light-gray: hsl(0, 0%, 75%);
+
+    --padding-container: 15px 0 50px;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    min-height: 100vh;
+    /* position: relative; */
+}
+
+body{
+    font-family: var(--open-sans);
+}
+
+.container{
+    width: 90%;
+    max-width: 1440px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: var(--padding-container);
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    width: 28%;
+    max-width: 150px;
+}
+
+.header__fylo{
+    width: 100%;
+    display: block;
+}
+
+.header__buttoms{
+   width: 55%; 
+   display: flex;
+   justify-content: space-around;
+}
+
+.header__cta{
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.header__main{
+    text-align: center;
+}
+
+.header__picture{
+    margin-top: 50px;
+}
+
+.header__img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.header__texts{
+    color: var(--very-dark-blue);
+}
+
+.header__title{
+    margin: 40px 0 20px;
+    font-family: var(--raleway);
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.header__paragraph{
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.header__form{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header__input{
+    width: 90%;
+    padding: 10px 20px;
+    border: 1px solid var(--desaturated-blue);
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.header__cta-form{
+    width: 90%;
+    background-color: var(--bright-blue);
+    color: #fff;
+    border: none;
+    padding: 15px 0;
+    font-weight: 400;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px var(--light-gray);
+}
+
+.header__input::placeholder{
+    color: var(--light-gray);
+}
+
