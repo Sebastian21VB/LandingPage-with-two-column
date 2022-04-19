@@ -102,14 +102,14 @@ body{
     line-height: 1.6;
 }
 
-.header__form{
+.form{
     width: 100%;
     max-width: 600px;
     text-align: center;
     margin: 0 auto;
 }
 
-.header__input{
+.input{
     width: 90%;
     padding: 10px 20px;
     border: 1px solid var(--desaturated-blue);
@@ -117,7 +117,7 @@ body{
     margin-bottom: 20px;
 }
 
-.header__cta-form{
+.cta-form{
     width: 90%;
     background-color: var(--bright-blue);
     color: #fff;
@@ -161,6 +161,7 @@ body{
 .section__paragraph{
     font-size: 15px;
     padding: 20px 25px 0;
+    color: var(--light-gray);
 }
 
 .main__container{
@@ -185,6 +186,77 @@ body{
     margin-top: 5px;
     border: 1px solid ;
     width: 45%;
+}
+
+.section__commeent{
+    padding: 30px 0 50px;
+}
+
+.comment__container{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: start;
+    padding: 30px 30px 10px;
+    color: var(--very-dark-blue);
+    border-radius: 3px;
+    box-shadow: 0 0 10px var(--light-gray);
+}
+
+.comment__paragraph{
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.comment__user{
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.comment__information-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts{
+    font-size: 11px;
+}
+
+.comment__person{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.section__access{
+    margin-top: 60px;
+    padding: 50px 40px 60px;
+    background-color: var(--desaturated-blue);
+    color: #fff;
+}
+
+.access__title{
+    margin: 20px 0;
+}
+
+.access__paragraph{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: var(--light-gray);
+}
+
+.access__form{
+    width: 90%;
+}
+
+.access__input{
+    border: none;
+}
+
+.access__cta-form{
+    box-shadow: none;
 }
 
 
