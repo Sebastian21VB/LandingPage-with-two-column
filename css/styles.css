@@ -24,8 +24,7 @@
 }
 
 .header{
-    min-height: 100vh;
-    /* position: relative; */
+    min-height: 80vh;
 }
 
 body{
@@ -161,7 +160,7 @@ body{
 .section__paragraph{
     font-size: 15px;
     padding: 20px 25px 0;
-    color: var(--light-gray);
+    color: var(--very-dark-blue);
 }
 
 .main__container{
@@ -309,6 +308,110 @@ body{
     border-radius: 50%;
     margin-left: 10px;
     padding-top: 5px;
+}
+
+@media (min-width: 768px){
+
+    .header{
+        min-height: 70vh;
+    }
+
+    .header__nav{
+        justify-content: space-between;
+        gap: 52%;
+        --padding-container: 30px 0 50px;
+    }
+
+    .header__main{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .header__picture{
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .header__texts-forms{
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .header__texts{
+        text-align: start;
+    }
+
+    .header__title{
+        font-size: 18px;
+    }
+
+    .header__form{
+        display: flex;
+        gap: 20px;
+    }
+
+    .header__cta-form{
+        padding: 8px 10px;
+        width: 40%;
+        height: 38px;
+    }
+
+    .main__wave{
+        background-image: url('/images/bg-curve-desktop.svg');
+    }
+
+    .section__texts-picture{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .section__texts-card{
+        text-align: start;
+        width: 45%;
+    }
+
+    .section__title{
+        padding-left: 25px;
+    }
+
+    .section__paragraph{
+        font-size: 13px;
+    }
+
+    .section__picture{
+        width: 55%;
+        max-width: 800px;
+    }
+
+    .access__content{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .access__texts{
+        text-align: start;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .access__form{
+        width: 50%;
+        text-align: start;
+    }
+
+    .access__cta-form{
+        width: 50%;
+        
+    }
+
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
 }
 
 
